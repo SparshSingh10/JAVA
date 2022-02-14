@@ -1,0 +1,31 @@
+/*5.	WAP to input an array of N number of elements and store all even numbers in 1 array and 
+all odd numbers in another array. Print both the even and odd array separately.*/
+#include<stdio.h>
+int main()
+{
+	int i,n,c1=0,c2=0,j=0,k=0;
+	printf("enter size\n");
+	scanf("%d",&n);
+	int a[n],b[n],c[n];
+	printf("enter element\n");
+	for(i=0;i<n;i++)
+	{
+		
+		scanf("%d",&a[i]);
+		if(a[i]%2==0)
+		{
+		b[j++]=a[i];
+		++c1;
+		}
+		else
+		{
+		c[k++]=a[i];
+		++c2;
+	}}
+	printf("even array is\n");
+for(j=0;j<c1;j++)
+printf("%d ",b[j]);
+printf("\n odd array is\n");
+		for(k=0;k<c2;k++)
+	printf("%d ",c[k]);	
+}
