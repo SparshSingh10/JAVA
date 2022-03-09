@@ -1,0 +1,4 @@
+#2. Program to print two different strings “Hello” and “World” in a single line
+s1='Hello'
+s2='World'
+print(s1,s2)
