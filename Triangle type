@@ -1,0 +1,14 @@
+'''Program to find whether a triangle is scalene, isosceles, right angled or invalid when the sides of 
+the triangle are entered by the user.''' 
+s1=int(input('enter side 1'))
+s2=int(input('enter side 2'))
+s3=int(input('enter side 3'))
+if(((s1+s2)>s3 or (s2+s3)>s1 or (s1+s2)>s3)):
+    if(s1==s2==s3):
+        print('equlateral traingle')
+    elif (s1==s2 or s2==s3 or s3==s1):
+        print('isoceles triangle')
+    else:
+        print('scalene')
+
+
