@@ -1,0 +1,5 @@
+#find hypotenuse
+b=int(input('enter base\n'))
+h=int(input('enter height\n'))
+h=(b**2+h**2)**.5
+print(h)
