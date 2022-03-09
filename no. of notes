@@ -1,0 +1,13 @@
+'''11. Program to find the number of currency notes of each type (Rs. 2000, Rs. 500 and Rs. 100), 
+when the total number of currency notes counted altogether is minimum and there must be at 
+least a 100 rupee note dispensed. The amount to be withdrawn is to be entered by the user'''
+
+
+amt=int(input('enter amout\n'))
+amt=amt-100
+tt=amt//2000
+amt=amt-tt*2000
+fh=amt//500
+amt=amt-fh*500
+h=(amt//100)+1
+print(f'two thousand = {tt}, five hundred = {fh},hundred = {h}')
