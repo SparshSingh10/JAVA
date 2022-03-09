@@ -1,0 +1,8 @@
+'''10. Program to input two numbers and 
+print the swapped values of them.'''
+a=int(input('ENTER NUMBER\n'))
+b=int(input('Enter next number\n'))
+t=a
+a=b
+b=t 
+print(a,'\n',b)
