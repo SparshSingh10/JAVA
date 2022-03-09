@@ -1,0 +1,8 @@
+#find simple interest
+p=int(input('enter the principle\n'))
+r=int(input('enter the rate\n'))
+t=int(input('enter the time\n'))
+si=(p*r*t)
+amt=p+si
+print('simple interest',si)
+print('amount',amt)
