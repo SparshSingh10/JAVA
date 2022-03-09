@@ -1,0 +1,3 @@
+#5. Program to multiply two entered integer values
+a=10*2
+print(a)
