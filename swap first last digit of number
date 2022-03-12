@@ -1,0 +1,21 @@
+n=int(input('Enter the number\n'))
+n1=n
+ld=n%10
+n=n//10
+rev=0
+c=0
+
+while n!=0:
+    r=n%10
+    rev=rev*10+r
+    c=c+1
+    n=n//10
+n2=rev%10
+rev=rev//10
+rev1=0
+while rev!=0:
+    r=rev%10
+    rev1=rev1*10+r
+    rev=rev//10
+rev1=ld*(10**c)+rev1*10+n2
+print(rev1)
