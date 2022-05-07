@@ -1,0 +1,13 @@
+'''Define a function which counts vowels and consonant in 
+a word.'''
+
+n=input("enter word\n")
+n=n.lower()
+c=c1=0
+for i in n:
+    if i=='a' or i=='e' or i=='i' or i=='o' or i=='u':
+        c=c+1
+    else:
+        c1=c1+1
+print(f"number of consonants={c1}\nnumber of vovels={c}")
+
