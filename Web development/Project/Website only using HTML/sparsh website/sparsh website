@@ -110,7 +110,7 @@
                                 </tr>
                                 <tr>
                                     <td width="40%">
-                                        <img src="image/IMG_20161127_101018.jpg" alt="Sparsh image" width="90%"
+                                        <img src="IMG_20161127_101018.jpg" alt="Sparsh image" width="90%"
                                             title="sparsh singh">
                                     </td>
                                     <td width="60%">
@@ -151,13 +151,13 @@
                                 <!--Heading End-->
                                 <tr>
                                     <td width="33%">
-                                        <a href="service1.html"><img src="image/download (1).jpg" alt="Service1"title="service1"  width="100%"></a>
+                                        <a href="service1.html"><img src="download (1).jpg" alt="Service1"title="service1"  width="100%"></a>
                                     </td>
                                     <td width="33%">
-                                        <a href="service2.html"><img src="image/download (2).jpg" alt="Service1"title="service2"  width="100%"></a>
+                                        <a href="service2.html"><img src="download (2).jpg" alt="Service1"title="service2"  width="100%"></a>
                                     </td>
                                     <td width="33%">
-                                        <a href="service3.html"><img src="image/download.jpg" alt="Service1"title="service3"  width="100%"></a>
+                                        <a href="service3.html"><img src="download.jpg" alt="Service1"title="service3"  width="100%"></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -259,7 +259,7 @@
                            </font>
                         </td>
                         <td >
-                            <img src="image/download (3).jpg" alt="Achievements"  width="90%">
+                            <img src="download (3).jpg" alt="Achievements"  width="90%">
                         </td>
                         
                     </tr>
