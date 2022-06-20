@@ -1,4 +1,4 @@
-//to-check-if-a-given-integer-is-odd-or-even/
+//to-check-area of circle
 import java.util.*;
 public class maxormin{
     public static void main(String[] args) {
