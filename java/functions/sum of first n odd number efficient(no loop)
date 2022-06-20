@@ -1,0 +1,28 @@
+
+//sum of first n odd number efficient(no loop)/
+import java.util.*;
+import java.util.Arrays;
+
+
+public class functions {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println(sum(a));
+
+    }
+
+    public static int sum(int n) {
+        int t;
+        if(n%2!=0)
+            t=(n+1)/2;
+        else{
+            t=n/2;
+            n=n-1;
+        }
+        System.out.println(n+" "+t);
+        int s=(int)(t*.5*(1+n));
+        return s;
+
+    }
+}
