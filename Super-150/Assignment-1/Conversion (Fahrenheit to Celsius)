@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main {
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        int m1=sc.nextInt();
+        int m2=sc.nextInt();
+        int s=sc.nextInt();
+        for(int i=m1;i<=m2;i=i+s){
+        int c=0;
+        c  = ((i-32)*5)/9;
+        System.out.println(i+" "+c);
+        }
+        }
+    }
