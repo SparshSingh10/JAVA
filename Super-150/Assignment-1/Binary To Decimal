@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main {
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int decimal=0;  
+        int x=0;  
+        while(true){  
+        if(n==0){  
+            break;  
+        } 
+        else {  
+          int temp=n%10;  
+          decimal+=temp*Math.pow(2,x);  
+          n=n/10;  
+          x++;  
+       }  
+    }  
+    System.out.println(decimal);  
+    }
+}
