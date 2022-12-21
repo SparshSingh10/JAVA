@@ -1,0 +1,31 @@
+d=int(input('enter todays date\n'))
+m=int(input('enter todays month\n'))
+y=int(input('enter todays year\n'))
+
+if(m==12):
+    days=(31-d)
+elif(m==11):
+    days=(31-d)+31
+elif(m==10):
+    days=(31-d)+61
+elif(m==9):
+    days=(31-d)+91
+elif(m==8):
+    days=(31-d)+122
+elif(m==7):
+    days=(31-d)+153
+elif(m==6):
+    days=(31-d)+183
+elif(m==5):
+    days=(31-d)+213
+elif(m==4):
+    days=(31-d)+244
+elif(m==3):
+    days=(31-d)+274
+elif(m==2):
+    days=(31-d)+305
+elif(m==1):
+    days=(31-d)+333
+
+print('days left = ',days)
+    
